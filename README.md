@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+There+%F0%9F%91%8B+I'm+Mohamed+Abd+El-Hay;Digital+Design+%26+Verification+Engineer;RTL+%7C+UVM+%7C+ASIC+%7C+5G+SoC" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi+There+%F0%9F%91%8B+I'm+Mohamed+Abd+El-Hay;Digital+Design+%26+Verification+Engineer;AI%2FLLM+Engineer+%7C+Agentic+Workflows;RTL+%7C+UVM+%7C+ASIC+%7C+5G+SoC" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -23,21 +23,31 @@
 
 ## 🎓 About Me
 
-I am an Electronics and Communication Engineering graduate from **Cairo University** (Excellent — 89.36%, Rank #18), passionate about building and verifying complex digital systems. With a solid foundation in **hardware/software co-design**, **SoC architectures**, and **advanced DSP**, I specialize in bringing high-performance RTL designs to life and ensuring their robustness through rigorous **UVM verification environments**.
+I am an Electronics and Communication Engineering graduate from **Cairo University** (Excellent with Honors — 89.36%, Rank #18), with hands-on experience spanning **Digital IC Verification**, **RTL design**, and **AI/LLM engineering**. I developed **XcelUVM**, an LLM- and RAG-powered tool that automatically architects and generates ready-to-run UVM verification environments from RTL. My graduation project focuses on a **5G NR receiver** built on the RISC-V PULP SoC platform, sponsored by Analog Devices (ADI). I'm passionate about building agentic AI-driven tools for semiconductor design and verification.
 
 ```yaml
 Name       : Mohamed Abd El-Hay Mostafa Mohamed
 Education  : B.Sc. Electronics & Communication Engineering — Cairo University (2021–2026)
-GPA        : Excellent with honors — 89.36%  |  Rank: 18 / 180+ students
+GPA        : Excellent with Honors — 89.36%  |  Rank: 18 / 180+ students
 Location   : 6th October, Giza, Egypt
 Experience : Digital Design Intern @ Analog Devices (ADI) — Summer 2025
-Focus      : RTL Design · UVM Verification · ASIC/FPGA Flow · HW/SW Co-design · 5G DSP
+Focus      : RTL Design · UVM Verification · Agentic LLM Workflows · ASIC/FPGA Flow · 5G DSP
 Military   : Postponed until April 2027
 ```
 
 ---
 
 ## 🛠️ Technical Skills
+
+### AI, LLM & Data Engineering
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LLM API Integration](https://img.shields.io/badge/LLM%20API%20Integration-6A1B9A?style=flat-square)
+![RAG](https://img.shields.io/badge/Retrieval--Augmented%20Generation-8E24AA?style=flat-square)
+![Agentic Workflows](https://img.shields.io/badge/Agentic%20Workflows-9C27B0?style=flat-square)
+![Prompt Design](https://img.shields.io/badge/Prompt%20Design-AB47BC?style=flat-square)
+![NLP](https://img.shields.io/badge/NLP-BA68C8?style=flat-square)
+![Transformers](https://img.shields.io/badge/Transformers-CE93D8?style=flat-square)
+![GAN](https://img.shields.io/badge/GAN%20%2F%20VAE-7B1FA2?style=flat-square)
 
 ### HDLs & Verification
 ![Verilog](https://img.shields.io/badge/Verilog-4A90D9?style=flat-square)
@@ -67,49 +77,61 @@ Military   : Postponed until April 2027
 
 ### Signal Processing & Scripting
 ![MATLAB](https://img.shields.io/badge/MATLAB-E37400?style=flat-square&logo=mathworks&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![TCL](https://img.shields.io/badge/TCL%20Scripting-1565C0?style=flat-square)
 ![DSP](https://img.shields.io/badge/DSP%20Modeling-283593?style=flat-square)
 ![Fixed-Point](https://img.shields.io/badge/Fixed--Point%20Analysis-1A237E?style=flat-square)
 
-### EDA & Design Tools
+### EDA & Development Tools
 
 | Category | Tools |
 |---|---|
-| **Simulation** | Questa Sim / ModelSim |
+| **Simulation** | Questa Sim / ModelSim, Cocotb |
 | **FPGA** | Xilinx Vivado |
 | **Synthesis** | Synopsys Design Compiler (DC), OpenLane |
 | **Analog Design** | Cadence Virtuoso |
 | **Signal Processing** | MATLAB, Simulink |
 | **PCB / Circuit** | Proteus, EasyEDA, Multisim |
 | **RF / EM** | HFSS |
-| **Dev Environment** | VS Code, Qt Creator, Linux, Git |
+| **Dev Environment** | VS Code, Qt Creator, Linux, Git, draw.io |
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏆 Hardware-Accelerated Massive MIMO Detection System *(Graduation Project — Sponsored by ADI)*
-> **5G NR Uplink Receiver on RISC-V PULP SoC**
+### 🤖 XcelUVM — Automated UVM Environment Setup (LLM + RAG)
+> **GUI-driven, agentic tool that architects and generates ready-to-run UVM verification environments from RTL**
 
-- **System Architecture:** Designed an 8×8 Massive MIMO uplink receiver on the RISC-V based PULP SoC platform, leveraging parallel clusters for high-throughput 5G NR processing.
-- **DSP Implementation:** Developed a hardware-accelerated pipeline featuring 8 parallel 4096-point FFTs and MIMO equalization across 4096 sub-carriers.
-- **Hardware Acceleration (HWPE):** Led the integration of Hardware Processing Engines into the PULP platform, bypassing CV32E40P core throughput constraints — taken over from a teammate and driven to completion independently.
+- **End-to-End Automation:** Built a GUI-driven tool (PyQt5) that generates structured UVM components, testbench files, run.do scripts, and auto-generated documentation of the resulting verification architecture.
+- **Agentic, RAG-Augmented Generation:** Built an LLM-driven workflow using API-based model integration and a custom RAG pipeline, feeding RTL, domain-specific instructions, and verification examples as context to generate design-specific SVA, constraints, and functional coverage.
+- **Co-simulation & Networking:** Implemented a TCP/IP socket-based client-server architecture with SystemVerilog DPI-C/DPI-Python, letting the UVM Predictor communicate with external Reference Models running as separate processes.
+
+`Python (PyQt5)` `LLMs` `RAG` `SystemVerilog` `UVM` `TCP/IP Sockets` `DPI-C/DPI-Python` `Tcl`
+
+---
+
+### 🏆 5G Base Station Receiver *(Graduation Project — Sponsored by ADI)*
+> **8×8 MIMO Uplink Receiver on RISC-V PULP SoC**
+
+- **System Architecture:** Designed an 8×8 MIMO uplink receiver on the RISC-V based PULP SoC platform, leveraging parallel clusters for high-throughput 5G NR processing, plus floating-point SISO/SIMO/MIMO system models in MATLAB as algorithmic references.
+- **System-Level Modeling:** Modeled the FFT and Channel Equalizer (ZF and MMSE) blocks with fixed-point analysis in MATLAB alongside two teammates.
+- **Hardware Acceleration (HWPE):** Led integration of Hardware Processing Engines into the PULP platform to offload compute-intensive DSP tasks (FFTs and matrix operations), bypassing CV32E40P core throughput constraints.
 - **Multi-Accelerator Subsystem:** Architected a subsystem within a single PULP cluster deploying 8 HWPEs, each using FFT RTL as its computational core.
-- **Data Movement Strategy:** Designed an optimized DMA and memory movement strategy to maximize bandwidth and minimize contention across multiple PULP clusters.
-- **System Modeling:** MATLAB/Simulink modeling of FFT, ZF Equalizer, and MMSE Equalizer blocks.
 
-`5G NR` `RISC-V` `PULP SoC` `HWPE` `8×8 MIMO` `AXI Bus` `MATLAB/Simulink` `DMA`
+`5G NR` `RISC-V` `PULP SoC` `HWPE` `8×8 MIMO` `AXI Bus` `MATLAB/Simulink`
+
+[🔗 PULP-Environment repo](https://github.com/Abdel-Hay21/PULP-Environment) · [🔗 FFT_HWPE repo](https://github.com/Abdel-Hay21/FFT_HWPE)
 
 ---
 
 ### ⚙️ RTL-to-GDS Low-Power Multi-Clock Digital System
-- Designed core blocks from scratch: ALU, FIFO, UART, Clock Divider, CDC Synchronizers, Register File.
+- Designed core blocks from scratch: ALU, FIFO, UART TX/RX, Clock Divider, Clock Gating, CDC Synchronizers, Register File, Main Controller.
 - Synthesized using **Synopsys Design Compiler** (TCL scripts), resolved setup/hold violations, and verified equivalence via **Formality**.
 - Executed the complete **ASIC physical flow** to GDS.
 
 `Verilog` `Synopsys DC` `Formality` `STA` `CDC` `Clock Gating` `OpenLane`
+
+[🔗 Repo](https://github.com/Abdel-Hay21/Low-Power-configurable-Multi-clock-Digital-System)
 
 ---
 
@@ -119,6 +141,8 @@ Military   : Postponed until April 2027
 
 `SystemVerilog` `UVM` `OpenLane` `SKY130` `GDS-II` `160 MHz`
 
+[🔗 Repo](https://github.com/Abdel-Hay21/Fast-Fourier-Transform)
+
 ---
 
 ### 🔬 Advanced UVM & SystemVerilog Verification Projects
@@ -126,8 +150,11 @@ Military   : Postponed until April 2027
 | Project | Highlights |
 |---|---|
 | **SPI Slave + Single-Port RAM** | Full UVM environment — functional & code coverage metrics |
+| **FFT-4096 (DIF SDF)** | UVM verification of a 4096-point FFT design |
+| **Synchronous FIFO** | SystemVerilog verification, functional & code coverage |
 | **ALSU (Arithmetic Logic Shift Unit)** | RTL design + comprehensive UVM verification environment |
-| **FIFO Verification** | SVA assertions, constrained randomization, golden model with queue data type |
+
+[🔗 Synchronous FIFO Verification repo](https://github.com/Abdel-Hay21/Verifying-Synchronous-FIFO-Using-System-Verilog)
 
 ---
 
@@ -141,21 +168,34 @@ Military   : Postponed until April 2027
 
 ---
 
-### 🤖 AI / ML Projects
-- **Arabic NLP Benchmarking:** Standardized framework to benchmark LLMs (ChatGPT, Gemini, ALLaM) across MSA, Classical, and dialectal Arabic with Inter-Annotator Agreement (IAA).
-- **Semi-Automated Data Labeling Pipelines:** Active Learning & Self-Training using K-Means and Multi-class SVM.
-- **Generative AI Pipelines:** Conditional GANs (cGANs) for dataset augmentation, evaluated on LeNet-5.
+### 🧠 AI / ML Projects
+- **Arabic NLP Benchmarking:** Engineered an evaluation pipeline to benchmark LLMs (ChatGPT, Gemini, ALLaM) across Arabic NLP tasks, including test-set design and quality scoring, with Inter-Annotator Agreement (IAA).
+- **Data Augmentation & Generative AI Pipelines:** Implemented custom data augmentation (rotation, translation, noise) and synthetic data generation with Conditional GANs (cGANs) to expand limited image datasets.
 
-`Python` `NLP` `GAN` `SVM` `Active Learning` `LLMs`
+`Python` `NLP` `GAN` `Active Learning` `LLMs`
 
 ---
 
-### 💡 Embedded Systems & Other Projects
+### 📶 DSP Projects
+- **Audio Processing & Communication System** — MATLAB.
+- **CORDIC Algorithm for Sine Computation** — MATLAB.
+- **SPICE Circuit Simulator** — Implementation in MATLAB.
+
+---
+
+### 💡 Embedded Systems & Software Projects
 - **Digital Multimeter (DMM)** — PIC18F45K20 on PCB, C programming.
 - **Digital Oscilloscope** — PCB-based, ESP32 + TFT display.
-- **SPICE Circuit Simulator** — Implementation in MATLAB.
 - **Tic-Tac-Toe** — GUI + database system in C++.
 - **PWM Generator** — Built-in Timer for flexible frequency and duty-cycle control.
+
+---
+
+## 💼 Experience
+
+**Digital Design Intern — Analog Devices (ADI)** · Summer 2025 (2 months, onsite)
+- Built a solid foundation in the comprehensive digital design flow, from system modeling to GDS-II, and explored modern verification frameworks including **Cocotb**.
+- Gained practical knowledge in FPGA implementation and hardware/software co-design methodologies.
 
 ---
 
