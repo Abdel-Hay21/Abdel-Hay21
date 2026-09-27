@@ -27,7 +27,7 @@ I am an Electronics and Communication Engineering graduate from **Cairo Universi
 
 ```yaml
 Name       : Mohamed Abd El-Hay Mostafa Mohamed
-Education  : B.Sc. Electronics & Communication Engineering — Cairo University (2021–2026)
+Education  : B.Sc. Electronics & Communication Engineering — Cairo University (2022–2026)
 GPA        : Excellent with Honors — 89.36%  |  Rank: 18 / 180+ students
 Location   : 6th October, Giza, Egypt
 Experience : Digital Design Intern @ Analog Devices (ADI) — Summer 2025
