@@ -23,7 +23,7 @@
 
 ## 🎓 About Me
 
-I am an Electronics and Communication Engineering graduate from **Cairo University** (Excellent — 89.6%, Rank #12), passionate about building and verifying complex digital systems. With a solid foundation in **hardware/software co-design**, **SoC architectures**, and **advanced DSP**, I specialize in bringing high-performance RTL designs to life and ensuring their robustness through rigorous **UVM verification environments**.
+I am an Electronics and Communication Engineering graduate from **Cairo University** (Excellent — 89.36%, Rank #18), passionate about building and verifying complex digital systems. With a solid foundation in **hardware/software co-design**, **SoC architectures**, and **advanced DSP**, I specialize in bringing high-performance RTL designs to life and ensuring their robustness through rigorous **UVM verification environments**.
 
 ```yaml
 Name       : Mohamed Abd El-Hay Mostafa Mohamed
